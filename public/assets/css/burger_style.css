@@ -1,11 +1,8 @@
 * {
   box-sizing: border-box;
-}
+} 
 
-.lead {
-  font-weight: bold;
-  font-size: 30px;
-}
+
 
 body {
   background-position: center center;
@@ -27,7 +24,7 @@ body {
 }
 
 .display-4 {
-  color: black;
+  color: white;
   text-align: center;
   font-size: 30px;
   margin: 0 auto;
@@ -37,18 +34,10 @@ h2 {
   margin: 15px;
   line-height: 1.2;
   font-weight: bold;
-  color: black;
+  color: lightblue;
+  text-align: center;
 }
 
-h1,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0 0 1rem 0;
-  line-height: 1.2;
-  font-weight: bold;
-}
 
 p,
 ul,
@@ -58,7 +47,7 @@ address,
 label {
   margin: 0 0 1rem 0;
   font-style: normal;
-  color: black;
+  color: white;
 }
 
 ul,
@@ -66,12 +55,12 @@ ol {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  color: black;
+  color:white;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color:white;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -88,10 +77,6 @@ button {
   transition: all 0.5s;
 }
 
-body {
-  background-color: purple;
-  font-family: "Source Sans Pro" !important;
-}
 
 body .intro {
   width: 80%;
@@ -160,4 +145,6 @@ body .add-burger-section input[type="text"]:active {
 
 body .add-burger-section .add-burger-btn {
   border-radius: 0 6px 6px 0;
-}
+} 
+
+
