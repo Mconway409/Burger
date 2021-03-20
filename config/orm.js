@@ -1,3 +1,6 @@
+var connection = require("./connection.js");
+
+
 const orm = {
   selectAll: (table, cb) => {
     var queryString = "SELECT * FROM " + table + ";";
