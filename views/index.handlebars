@@ -20,7 +20,7 @@
 
     <div class="burger-lists mt-5 d-flex flex-column flex-sm-row justify-content-between">
         <div class="undevoured-list list-box my-2 my-sm-0 mr-sm-2">
-            <h2 class="list-title">Not devoured:</h2>
+            <h2 class="list-title">EAT IT!:</h2>
             <ul class="list-content" id="not-d-list">
                 {{#each burgers}}
                 {{#unless devoured}}
@@ -31,7 +31,7 @@
         </div>
 
         <div class="devoured-list list-box my-2 my-sm-0 ml-sm-2">
-            <h2 class="list-title ">Devoured:</h2>
+            <h2 class="list-title ">Ate it:</h2>
             <ul class="list-content" id="d-list">
                 {{#each burgers}}
                 {{#if devoured}}

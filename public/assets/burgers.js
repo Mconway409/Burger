@@ -34,15 +34,7 @@ $(function () {
       });
     }
   });
-  $(".delete-burger").on("click", function (event) {
-    const id = $(this).data("id");
-    $.ajax(`/api/burgers/${id}`, {
-      type: "DELETE",
-    }).then(function () {
-      console.log("deleted burger", id);
-      location.reload();
-    });
-  });
+  
 });
 
 
